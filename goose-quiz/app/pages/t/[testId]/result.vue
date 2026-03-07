@@ -62,6 +62,12 @@ const MODULE_LABELS: Record<Module, string> = {
   protect: '防护', enforce: '执行', manipulate: '操纵', opportunism: '投机',
 }
 
+/* ─── Role image ─── */
+const roleImage = computed(() => {
+  if (!result.value) return ''
+  return `/images/${result.value.roleName}.png`
+})
+
 const maxScore = computed(() => {
   if (!result.value) return 1
   return Math.max(...MODULES.map((m) => result.value!.moduleScores[m]), 1)
@@ -142,7 +148,7 @@ function retake() {
           }"
         >
           <div class="sc-header">
-            <div class="sc-emoji">{{ campTheme.emoji }}</div>
+            <img :src="roleImage" :alt="result.roleName" class="sc-role-img" />
             <div class="sc-badge" :style="{ background: campTheme.accentLight, color: campTheme.accent }">
               {{ result.campName }}
             </div>
@@ -176,7 +182,11 @@ function retake() {
 
       <!-- Header card -->
       <div class="card card-hero text-center">
-        <div class="text-5xl mb-3">{{ campTheme.emoji }}</div>
+        <img
+          :src="roleImage"
+          :alt="result.roleName"
+          class="role-img mx-auto mb-3"
+        />
         <span
           class="inline-block px-3 py-1 rounded-full text-xs font-bold mb-2 ring-1"
           :class="campTheme.badge"
@@ -359,6 +369,12 @@ function retake() {
 .card-hero {
   padding: 28px 20px;
 }
+.role-img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  border-radius: 16px;
+}
 .card-title {
   font-size: 12px;
   font-weight: 700;
@@ -393,7 +409,14 @@ function retake() {
   text-align: center;
   margin-bottom: 24px;
 }
-.sc-emoji { font-size: 48px; margin-bottom: 8px; }
+.sc-role-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin: 0 auto 10px;
+  display: block;
+  border-radius: 16px;
+}
 .sc-badge {
   display: inline-block;
   padding: 3px 14px;
