@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'PingFang SC', 'Source Han Sans SC', 'Noto Sans SC', 'Inter', system-ui, sans-serif;
+}

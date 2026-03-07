@@ -1,0 +1,34 @@
+{
+  "codes": [
+    {
+      "code": "GOOSE2026",
+      "usesLeft": 992,
+      "expiresAt": null,
+      "status": "active"
+    },
+    {
+      "code": "DUCK-TEST",
+      "usesLeft": 999,
+      "expiresAt": null,
+      "status": "active"
+    },
+    {
+      "code": "QUACK123",
+      "usesLeft": 50,
+      "expiresAt": "2026-12-31T23:59:59Z",
+      "status": "active"
+    },
+    {
+      "code": "HONK-VIP",
+      "usesLeft": 10,
+      "expiresAt": null,
+      "status": "active"
+    },
+    {
+      "code": "BIRDWATCH",
+      "usesLeft": 100,
+      "expiresAt": null,
+      "status": "active"
+    }
+  ]
+}

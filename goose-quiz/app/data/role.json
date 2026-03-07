@@ -1,0 +1,200 @@
+{
+  "version": "goose_duck_roles_v2",
+  "modules": ["logic", "insight", "mobility", "control", "protect", "enforce", "manipulate", "opportunism"],
+  "roles": [
+    {
+      "key": "goose_white",
+      "name": "大白鹅",
+      "camp": "goose",
+      "weights": { "logic": 3, "insight": 1, "mobility": 2, "control": 1, "protect": 4, "enforce": 0, "manipulate": 0, "opportunism": 1 }
+    },
+    {
+      "key": "goose_canada",
+      "name": "加拿大鹅",
+      "camp": "goose",
+      "weights": { "logic": 2, "insight": 1, "mobility": 2, "control": 2, "protect": 4, "enforce": 2, "manipulate": 0, "opportunism": 2 }
+    },
+    {
+      "key": "goose_detector",
+      "name": "探测员",
+      "camp": "goose",
+      "weights": { "logic": 4, "insight": 1, "mobility": 3, "control": 2, "protect": 1, "enforce": 0, "manipulate": 0, "opportunism": 0 }
+    },
+    {
+      "key": "goose_detective",
+      "name": "侦探",
+      "camp": "goose",
+      "weights": { "logic": 5, "insight": 2, "mobility": 1, "control": 2, "protect": 1, "enforce": 0, "manipulate": 0, "opportunism": 0 }
+    },
+    {
+      "key": "goose_engineer",
+      "name": "工程师",
+      "camp": "goose",
+      "weights": { "logic": 2, "insight": 1, "mobility": 5, "control": 2, "protect": 1, "enforce": 1, "manipulate": 0, "opportunism": 1 }
+    },
+    {
+      "key": "goose_birdwatcher",
+      "name": "观鸟者",
+      "camp": "goose",
+      "weights": { "logic": 3, "insight": 5, "mobility": 1, "control": 2, "protect": 1, "enforce": 0, "manipulate": 0, "opportunism": 1 }
+    },
+    {
+      "key": "goose_medium",
+      "name": "通灵者",
+      "camp": "goose",
+      "weights": { "logic": 3, "insight": 2, "mobility": 1, "control": 5, "protect": 2, "enforce": 0, "manipulate": 0, "opportunism": 1 }
+    },
+    {
+      "key": "goose_forensic",
+      "name": "法医",
+      "camp": "goose",
+      "weights": { "logic": 3, "insight": 1, "mobility": 1, "control": 5, "protect": 4, "enforce": 0, "manipulate": 0, "opportunism": 0 }
+    },
+    {
+      "key": "goose_mortician",
+      "name": "殡仪员",
+      "camp": "goose",
+      "weights": { "logic": 4, "insight": 2, "mobility": 2, "control": 2, "protect": 1, "enforce": 0, "manipulate": 0, "opportunism": 0 }
+    },
+    {
+      "key": "goose_tracker",
+      "name": "跟踪者",
+      "camp": "goose",
+      "weights": { "logic": 4, "insight": 1, "mobility": 4, "control": 1, "protect": 1, "enforce": 0, "manipulate": 0, "opportunism": 1 }
+    },
+    {
+      "key": "goose_sheriff",
+      "name": "警长",
+      "camp": "goose",
+      "weights": { "logic": 2, "insight": 1, "mobility": 2, "control": 3, "protect": 2, "enforce": 5, "manipulate": 0, "opportunism": 1 }
+    },
+    {
+      "key": "goose_vigilante",
+      "name": "正义使者",
+      "camp": "goose",
+      "weights": { "logic": 4, "insight": 1, "mobility": 1, "control": 2, "protect": 2, "enforce": 4, "manipulate": 0, "opportunism": 1 }
+    },
+    {
+      "key": "goose_avenger",
+      "name": "复仇者",
+      "camp": "goose",
+      "weights": { "logic": 1, "insight": 2, "mobility": 3, "control": 1, "protect": 4, "enforce": 4, "manipulate": 0, "opportunism": 1 }
+    },
+    {
+      "key": "goose_soldier",
+      "name": "士兵",
+      "camp": "goose",
+      "weights": { "logic": 2, "insight": 1, "mobility": 2, "control": 2, "protect": 5, "enforce": 2, "manipulate": 0, "opportunism": 0 }
+    },
+    {
+      "key": "goose_astral",
+      "name": "星界行者",
+      "camp": "goose",
+      "weights": { "logic": 2, "insight": 4, "mobility": 3, "control": 2, "protect": 1, "enforce": 0, "manipulate": 0, "opportunism": 2 }
+    },
+    {
+      "key": "goose_mimic",
+      "name": "模仿者",
+      "camp": "goose",
+      "weights": { "logic": 2, "insight": 3, "mobility": 2, "control": 2, "protect": 2, "enforce": 0, "manipulate": 1, "opportunism": 3 }
+    },
+
+    {
+      "key": "neutral_dodo",
+      "name": "呆呆鸟",
+      "camp": "neutral",
+      "weights": { "logic": 0, "insight": 2, "mobility": 1, "control": 1, "protect": 1, "enforce": 0, "manipulate": 4, "opportunism": 5 }
+    },
+    {
+      "key": "neutral_pelican",
+      "name": "鹈鹕",
+      "camp": "neutral",
+      "weights": { "logic": 1, "insight": 1, "mobility": 2, "control": 4, "protect": 0, "enforce": 3, "manipulate": 1, "opportunism": 4 }
+    },
+    {
+      "key": "neutral_cuckoo",
+      "name": "布谷鸟",
+      "camp": "neutral",
+      "weights": { "logic": 2, "insight": 2, "mobility": 1, "control": 3, "protect": 0, "enforce": 0, "manipulate": 3, "opportunism": 5 }
+    },
+    {
+      "key": "neutral_vulture",
+      "name": "秃鹫",
+      "camp": "neutral",
+      "weights": { "logic": 0, "insight": 1, "mobility": 3, "control": 0, "protect": 0, "enforce": 1, "manipulate": 1, "opportunism": 5 }
+    },
+    {
+      "key": "neutral_pigeon",
+      "name": "鸽子",
+      "camp": "neutral",
+      "weights": { "logic": 0, "insight": 2, "mobility": 3, "control": 0, "protect": 2, "enforce": 0, "manipulate": 1, "opportunism": 5 }
+    },
+    {
+      "key": "neutral_falcon",
+      "name": "猎鹰",
+      "camp": "neutral",
+      "weights": { "logic": 1, "insight": 0, "mobility": 4, "control": 1, "protect": 0, "enforce": 5, "manipulate": 0, "opportunism": 3 }
+    },
+
+    {
+      "key": "duck_shapeshifter",
+      "name": "变形者",
+      "camp": "duck",
+      "weights": { "logic": 0, "insight": 2, "mobility": 2, "control": 2, "protect": 0, "enforce": 1, "manipulate": 5, "opportunism": 4 }
+    },
+    {
+      "key": "duck_assassin",
+      "name": "刺客",
+      "camp": "duck",
+      "weights": { "logic": 2, "insight": 4, "mobility": 1, "control": 1, "protect": 0, "enforce": 5, "manipulate": 4, "opportunism": 2 }
+    },
+    {
+      "key": "duck_invisible",
+      "name": "隐形鸭",
+      "camp": "duck",
+      "weights": { "logic": 0, "insight": 1, "mobility": 5, "control": 1, "protect": 0, "enforce": 3, "manipulate": 2, "opportunism": 4 }
+    },
+    {
+      "key": "duck_bomber",
+      "name": "爆炸王",
+      "camp": "duck",
+      "weights": { "logic": 0, "insight": 1, "mobility": 2, "control": 3, "protect": 0, "enforce": 2, "manipulate": 4, "opportunism": 4 }
+    },
+    {
+      "key": "duck_sniper",
+      "name": "狙击手",
+      "camp": "duck",
+      "weights": { "logic": 2, "insight": 3, "mobility": 2, "control": 1, "protect": 0, "enforce": 5, "manipulate": 1, "opportunism": 2 }
+    },
+    {
+      "key": "duck_eater",
+      "name": "食鸟鸭",
+      "camp": "duck",
+      "weights": { "logic": 0, "insight": 1, "mobility": 3, "control": 2, "protect": 0, "enforce": 2, "manipulate": 3, "opportunism": 5 }
+    },
+    {
+      "key": "duck_spy",
+      "name": "间谍",
+      "camp": "duck",
+      "weights": { "logic": 2, "insight": 3, "mobility": 1, "control": 2, "protect": 0, "enforce": 0, "manipulate": 5, "opportunism": 4 }
+    },
+    {
+      "key": "duck_grabber",
+      "name": "掠夺者",
+      "camp": "duck",
+      "weights": { "logic": 0, "insight": 1, "mobility": 4, "control": 3, "protect": 0, "enforce": 3, "manipulate": 3, "opportunism": 3 }
+    },
+    {
+      "key": "duck_professional",
+      "name": "专业杀手",
+      "camp": "duck",
+      "weights": { "logic": 1, "insight": 2, "mobility": 3, "control": 2, "protect": 0, "enforce": 3, "manipulate": 4, "opportunism": 3 }
+    },
+    {
+      "key": "duck_witch",
+      "name": "巫医",
+      "camp": "duck",
+      "weights": { "logic": 1, "insight": 4, "mobility": 2, "control": 1, "protect": 0, "enforce": 3, "manipulate": 3, "opportunism": 2 }
+    }
+  ]
+}

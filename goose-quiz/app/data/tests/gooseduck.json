@@ -1,0 +1,496 @@
+{
+  "version": "goose_duck_personality_v2_48",
+  "question_count": 48,
+  "modules": [
+    { "key": "logic", "name": "推理" },
+    { "key": "insight", "name": "洞察" },
+    { "key": "mobility", "name": "机动" },
+    { "key": "control", "name": "控盘" },
+    { "key": "protect", "name": "守护" },
+    { "key": "enforce", "name": "执法" },
+    { "key": "manipulate", "name": "操控" },
+    { "key": "opportunism", "name": "机会" }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "开局你第一反应通常是：",
+      "options": {
+        "A": { "text": "直接跑点，抢位置/视野优势", "module": "mobility" },
+        "B": { "text": "先观察，脑子里开始排时间线", "module": "logic" },
+        "C": { "text": "先找个靠谱的人一起走", "module": "protect" },
+        "D": { "text": "先看谁行为最不自然", "module": "insight" }
+      }
+    },
+    {
+      "id": 2,
+      "text": "信息不够的时候你会：",
+      "options": {
+        "A": { "text": "先稳住节奏，别乱投", "module": "control" },
+        "B": { "text": "先装死等窗口，再出手", "module": "opportunism" },
+        "C": { "text": "主动跑危险区换大信息", "module": "mobility" },
+        "D": { "text": "抱团降低不确定性", "module": "protect" }
+      }
+    },
+    {
+      "id": 3,
+      "text": "你更信什么：",
+      "options": {
+        "A": { "text": "能验证的证据链", "module": "logic" },
+        "B": { "text": "动机和行为是否一致", "module": "insight" },
+        "C": { "text": "位置/路线/视野这些硬信息", "module": "mobility" },
+        "D": { "text": "局势节奏：轮次、结构变化", "module": "control" }
+      }
+    },
+    {
+      "id": 4,
+      "text": "抓破绽你最强在：",
+      "options": {
+        "A": { "text": "逻辑矛盾", "module": "logic" },
+        "B": { "text": "表情语气很假", "module": "insight" },
+        "C": { "text": "路线根本走不到", "module": "mobility" },
+        "D": { "text": "反问两句把对方问崩", "module": "manipulate" }
+      }
+    },
+    {
+      "id": 5,
+      "text": "你看到“很像真凶但没把握”的瞬间，你会：",
+      "options": {
+        "A": { "text": "先补证据再说", "module": "logic" },
+        "B": { "text": "该出手就出手，先止损", "module": "enforce" },
+        "C": { "text": "盯他后续行为确认", "module": "insight" },
+        "D": { "text": "先装没看见，留后手", "module": "manipulate" }
+      }
+    },
+    {
+      "id": 6,
+      "text": "你更喜欢的“信息手感”是：",
+      "options": {
+        "A": { "text": "我能证明", "module": "logic" },
+        "B": { "text": "我能看穿", "module": "insight" },
+        "C": { "text": "我能跑图卡点", "module": "mobility" },
+        "D": { "text": "我能控局控节奏", "module": "control" }
+      }
+    },
+    {
+      "id": 7,
+      "text": "你更常记住：",
+      "options": {
+        "A": { "text": "谁何时在哪", "module": "logic" },
+        "B": { "text": "谁突然急/突然稳", "module": "insight" },
+        "C": { "text": "谁走哪条路、哪里能看到哪里", "module": "mobility" },
+        "D": { "text": "这局节奏该快还是该慢", "module": "control" }
+      }
+    },
+    {
+      "id": 8,
+      "text": "你最讨厌的噪音是：",
+      "options": {
+        "A": { "text": "没证据全靠喊", "module": "logic" },
+        "B": { "text": "会议没人控场乱成一锅", "module": "control" },
+        "C": { "text": "内讧互撕把团队撕碎", "module": "protect" },
+        "D": { "text": "路线说不清导致没法复盘", "module": "mobility" }
+      }
+    },
+    {
+      "id": 9,
+      "text": "会议里你更像：",
+      "options": {
+        "A": { "text": "把证据链讲清楚的人", "module": "logic" },
+        "B": { "text": "一眼看出谁在演的人", "module": "insight" },
+        "C": { "text": "控流程、控节奏的人", "module": "control" },
+        "D": { "text": "关键时刻一句话定方向的人", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 10,
+      "text": "别人强势带节奏，你会：",
+      "options": {
+        "A": { "text": "让他拿证据说话", "module": "logic" },
+        "B": { "text": "指出他动机不对", "module": "insight" },
+        "C": { "text": "直接切流程限制他", "module": "control" },
+        "D": { "text": "用反叙事把他绕回去", "module": "manipulate" }
+      }
+    },
+    {
+      "id": 11,
+      "text": "有人被误会，你更可能：",
+      "options": {
+        "A": { "text": "先把人保下来，别内耗", "module": "protect" },
+        "B": { "text": "让双方给可验证点", "module": "logic" },
+        "C": { "text": "拉回流程：先说清楚再投", "module": "control" },
+        "D": { "text": "观察是谁在借题发挥", "module": "insight" }
+      }
+    },
+    {
+      "id": 12,
+      "text": "你说服别人更常用：",
+      "options": {
+        "A": { "text": "证据与逻辑", "module": "logic" },
+        "B": { "text": "动机与人性", "module": "insight" },
+        "C": { "text": "方案与分工", "module": "control" },
+        "D": { "text": "引导式提问", "module": "manipulate" }
+      }
+    },
+    {
+      "id": 13,
+      "text": "你被怀疑时第一反应：",
+      "options": {
+        "A": { "text": "把路线细节讲清", "module": "logic" },
+        "B": { "text": "强调立场和善意", "module": "protect" },
+        "C": { "text": "提验证方案让大家检查", "module": "control" },
+        "D": { "text": "反问转移矛盾点", "module": "manipulate" }
+      }
+    },
+    {
+      "id": 14,
+      "text": "你更愿意信任哪种人：",
+      "options": {
+        "A": { "text": "能给你证据的人", "module": "logic" },
+        "B": { "text": "一直稳定靠谱的人", "module": "protect" },
+        "C": { "text": "讲话动机很清楚的人", "module": "insight" },
+        "D": { "text": "对你当下有用但你不盲信的人", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 15,
+      "text": "你更常在什么时候发言：",
+      "options": {
+        "A": { "text": "证据闭环时", "module": "logic" },
+        "B": { "text": "有人被冤时", "module": "protect" },
+        "C": { "text": "局面要失控时", "module": "control" },
+        "D": { "text": "出现收割窗口时", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 16,
+      "text": "你“演一下”自保时更像：",
+      "options": {
+        "A": { "text": "塑造可信叙事", "module": "manipulate" },
+        "B": { "text": "降低存在感当路人", "module": "opportunism" },
+        "C": { "text": "装无害融入团队", "module": "protect" },
+        "D": { "text": "装忙一直跑动", "module": "mobility" }
+      }
+    },
+    {
+      "id": 17,
+      "text": "面对风险你更像：",
+      "options": {
+        "A": { "text": "先保人", "module": "protect" },
+        "B": { "text": "先保正确", "module": "logic" },
+        "C": { "text": "先破局止损", "module": "enforce" },
+        "D": { "text": "先算收益窗口", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 18,
+      "text": "如果你只有一次强力机会（类似“一枪/一次大招”）：",
+      "options": {
+        "A": { "text": "证据极硬才用", "module": "logic" },
+        "B": { "text": "局势需要就用", "module": "enforce" },
+        "C": { "text": "能救人就用", "module": "protect" },
+        "D": { "text": "等最值钱窗口", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 19,
+      "text": "混乱局你更可能：",
+      "options": {
+        "A": { "text": "先稳流程", "module": "control" },
+        "B": { "text": "直接打断混乱", "module": "enforce" },
+        "C": { "text": "看谁在利用混乱", "module": "insight" },
+        "D": { "text": "趁乱拿关键收益", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 20,
+      "text": "压力大时你更像：",
+      "options": {
+        "A": { "text": "更理性更谨慎", "module": "logic" },
+        "B": { "text": "更敏感更护人", "module": "protect" },
+        "C": { "text": "更硬更果断", "module": "enforce" },
+        "D": { "text": "更会编叙事自保", "module": "manipulate" }
+      }
+    },
+    {
+      "id": 21,
+      "text": "你更常翻盘靠：",
+      "options": {
+        "A": { "text": "证据闭环", "module": "logic" },
+        "B": { "text": "节奏运营", "module": "control" },
+        "C": { "text": "走位跑图", "module": "mobility" },
+        "D": { "text": "一击定音", "module": "enforce" }
+      }
+    },
+    {
+      "id": 22,
+      "text": "你更容易上头在：",
+      "options": {
+        "A": { "text": "看到窗口就想拍板", "module": "enforce" },
+        "B": { "text": "队友被冤就急", "module": "protect" },
+        "C": { "text": "看到收益就忍不住", "module": "opportunism" },
+        "D": { "text": "看见演得太假就想拆", "module": "insight" }
+      }
+    },
+    {
+      "id": 23,
+      "text": "你更舒服的节奏：",
+      "options": {
+        "A": { "text": "稳稳控局", "module": "control" },
+        "B": { "text": "等窗口爆发", "module": "opportunism" },
+        "C": { "text": "一直跑图推进", "module": "mobility" },
+        "D": { "text": "快速缩局结束", "module": "enforce" }
+      }
+    },
+    {
+      "id": 24,
+      "text": "你最怕的输法：",
+      "options": {
+        "A": { "text": "被情绪带节奏误投", "module": "logic" },
+        "B": { "text": "内讧崩盘", "module": "protect" },
+        "C": { "text": "节奏断裂被牵着走", "module": "control" },
+        "D": { "text": "信息断流看不清", "module": "mobility" }
+      }
+    },
+    {
+      "id": 25,
+      "text": "你更认同：",
+      "options": {
+        "A": { "text": "别伤自己人最重要", "module": "protect" },
+        "B": { "text": "真相最重要", "module": "logic" },
+        "C": { "text": "秩序靠行动", "module": "enforce" },
+        "D": { "text": "叙事决定人心", "module": "manipulate" }
+      }
+    },
+    {
+      "id": 26,
+      "text": "你做决定更像：",
+      "options": {
+        "A": { "text": "先定规则再谈", "module": "control" },
+        "B": { "text": "先核对证据再投", "module": "logic" },
+        "C": { "text": "先看动机再判断", "module": "insight" },
+        "D": { "text": "先看收益再站队", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 27,
+      "text": "你觉得最强的力量来自：",
+      "options": {
+        "A": { "text": "证据", "module": "logic" },
+        "B": { "text": "信任", "module": "protect" },
+        "C": { "text": "节奏", "module": "control" },
+        "D": { "text": "行动权", "module": "enforce" }
+      }
+    },
+    {
+      "id": 28,
+      "text": "你更擅长利用：",
+      "options": {
+        "A": { "text": "地图与机制", "module": "mobility" },
+        "B": { "text": "流程与投票", "module": "control" },
+        "C": { "text": "叙事与心理", "module": "manipulate" },
+        "D": { "text": "证据与逻辑漏洞", "module": "logic" }
+      }
+    },
+    {
+      "id": 29,
+      "text": "你更擅长识破：",
+      "options": {
+        "A": { "text": "逻辑漏洞", "module": "logic" },
+        "B": { "text": "表演痕迹", "module": "insight" },
+        "C": { "text": "路线不可能", "module": "mobility" },
+        "D": { "text": "节奏操纵", "module": "control" }
+      }
+    },
+    {
+      "id": 30,
+      "text": "你对“制造混乱”的看法：",
+      "options": {
+        "A": { "text": "讨厌，伤团队", "module": "protect" },
+        "B": { "text": "讨厌，会遮住真相", "module": "logic" },
+        "C": { "text": "可控就能利用", "module": "control" },
+        "D": { "text": "最好用的掩护", "module": "manipulate" }
+      }
+    },
+    {
+      "id": 31,
+      "text": "你更常用的自保方式：",
+      "options": {
+        "A": { "text": "绑定可信队友", "module": "protect" },
+        "B": { "text": "降低存在感", "module": "opportunism" },
+        "C": { "text": "提高机动不被抓", "module": "mobility" },
+        "D": { "text": "控制别人对你的叙事", "module": "manipulate" }
+      }
+    },
+    {
+      "id": 32,
+      "text": "你更喜欢把胜负押在：",
+      "options": {
+        "A": { "text": "证据链", "module": "logic" },
+        "B": { "text": "投票节奏", "module": "control" },
+        "C": { "text": "地图走位", "module": "mobility" },
+        "D": { "text": "人心叙事", "module": "manipulate" }
+      }
+    },
+    {
+      "id": 33,
+      "text": "你玩游戏更在意：",
+      "options": {
+        "A": { "text": "大家一起赢", "module": "protect" },
+        "B": { "text": "赢在正确", "module": "logic" },
+        "C": { "text": "赢在运营", "module": "control" },
+        "D": { "text": "赢在我收益最大", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 34,
+      "text": "“不站队也能赢”的玩法你怎么看：",
+      "options": {
+        "A": { "text": "不喜欢，太伤协作", "module": "protect" },
+        "B": { "text": "能理解，但得讲逻辑", "module": "logic" },
+        "C": { "text": "很有趣，像博弈", "module": "control" },
+        "D": { "text": "爽，能把收益拿满", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 35,
+      "text": "你更喜欢的胜利感觉：",
+      "options": {
+        "A": { "text": "真相大白", "module": "logic" },
+        "B": { "text": "全员安心", "module": "protect" },
+        "C": { "text": "步步为营", "module": "control" },
+        "D": { "text": "一波收割", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 36,
+      "text": "面对“必须隐身低存在感”的局：",
+      "options": {
+        "A": { "text": "不舒服，想把话说清", "module": "logic" },
+        "B": { "text": "不舒服，想跟队友绑紧", "module": "protect" },
+        "C": { "text": "可以，站在流程中心最安全", "module": "control" },
+        "D": { "text": "很舒服，低存在感最好", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 37,
+      "text": "如果你要靠“接触更多人/更频繁互动”来赢：",
+      "options": {
+        "A": { "text": "我会觉得累", "module": "logic" },
+        "B": { "text": "我会享受这种社交", "module": "protect" },
+        "C": { "text": "我会把它当运营任务", "module": "control" },
+        "D": { "text": "我会当成收割手段", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 38,
+      "text": "如果你要靠“埋伏/布局”来赢：",
+      "options": {
+        "A": { "text": "我更想要证据型胜利", "module": "logic" },
+        "B": { "text": "我更想保护队友", "module": "protect" },
+        "C": { "text": "我喜欢，像做系统", "module": "control" },
+        "D": { "text": "我喜欢，等窗口收益最大", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 39,
+      "text": "你最擅长的最终手段：",
+      "options": {
+        "A": { "text": "投票管理", "module": "control" },
+        "B": { "text": "关键出手", "module": "enforce" },
+        "C": { "text": "叙事翻盘", "module": "manipulate" },
+        "D": { "text": "走位制造不在场", "module": "mobility" }
+      }
+    },
+    {
+      "id": 40,
+      "text": "临近终局你更像：",
+      "options": {
+        "A": { "text": "控节奏控投票", "module": "control" },
+        "B": { "text": "找机会一锤定音", "module": "enforce" },
+        "C": { "text": "补证据闭环", "module": "logic" },
+        "D": { "text": "先保证我最安全", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 41,
+      "text": "你更擅长的“骗法”是：",
+      "options": {
+        "A": { "text": "编一个完整故事让大家信", "module": "manipulate" },
+        "B": { "text": "做低存在感，让别人忽略我", "module": "opportunism" },
+        "C": { "text": "用走位制造不在场", "module": "mobility" },
+        "D": { "text": "用流程和节奏引导投票", "module": "control" }
+      }
+    },
+    {
+      "id": 42,
+      "text": "你更喜欢的“打击方式”：",
+      "options": {
+        "A": { "text": "会议里一击致命", "module": "enforce" },
+        "B": { "text": "远距离等最佳窗口", "module": "enforce" },
+        "C": { "text": "隐蔽靠近抓机会", "module": "mobility" },
+        "D": { "text": "让别人互相打起来", "module": "manipulate" }
+      }
+    },
+    {
+      "id": 43,
+      "text": "你更像哪种耐心：",
+      "options": {
+        "A": { "text": "一直等到证据最硬", "module": "logic" },
+        "B": { "text": "一直等到窗口最值钱", "module": "opportunism" },
+        "C": { "text": "一直等到节奏最合适", "module": "control" },
+        "D": { "text": "一直等到对方露出人性破绽", "module": "insight" }
+      }
+    },
+    {
+      "id": 44,
+      "text": "你更喜欢“处理痕迹”的风格：",
+      "options": {
+        "A": { "text": "尽量不留下可核对信息", "module": "manipulate" },
+        "B": { "text": "通过走位把注意力带走", "module": "mobility" },
+        "C": { "text": "用节奏把讨论导偏", "module": "control" },
+        "D": { "text": "不需要处理，直接硬解决", "module": "enforce" }
+      }
+    },
+    {
+      "id": 45,
+      "text": "你更像哪种“观察”：",
+      "options": {
+        "A": { "text": "看逻辑矛盾", "module": "logic" },
+        "B": { "text": "看表演痕迹", "module": "insight" },
+        "C": { "text": "看路线可能性", "module": "mobility" },
+        "D": { "text": "看谁在导票控节奏", "module": "control" }
+      }
+    },
+    {
+      "id": 46,
+      "text": "当你发现自己暴露了：",
+      "options": {
+        "A": { "text": "立刻反打把威胁处理掉", "module": "enforce" },
+        "B": { "text": "降存在感先活下来", "module": "opportunism" },
+        "C": { "text": "改叙事，把锅转出去", "module": "manipulate" },
+        "D": { "text": "跑位脱身，让证据断掉", "module": "mobility" }
+      }
+    },
+    {
+      "id": 47,
+      "text": "你更喜欢的“赢法价值观”：",
+      "options": {
+        "A": { "text": "正确比输赢重要", "module": "logic" },
+        "B": { "text": "团队比我重要", "module": "protect" },
+        "C": { "text": "只要能赢，手段都能谈", "module": "manipulate" },
+        "D": { "text": "我先活/先拿收益", "module": "opportunism" }
+      }
+    },
+    {
+      "id": 48,
+      "text": "你最常被夸的点：",
+      "options": {
+        "A": { "text": "逻辑清楚", "module": "logic" },
+        "B": { "text": "观察很准", "module": "insight" },
+        "C": { "text": "操作走位强", "module": "mobility" },
+        "D": { "text": "很会控场/带节奏", "module": "control" }
+      }
+    }
+  ]
+}

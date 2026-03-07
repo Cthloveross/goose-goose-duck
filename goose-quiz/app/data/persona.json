@@ -1,0 +1,408 @@
+{
+  "schema_version": "goose_duck_roles_persona_v1",
+  "camps": [
+    { "key": "goose", "name": "好人鹅", "count": 16 },
+    { "key": "neutral", "name": "中立", "count": 6 },
+    { "key": "duck", "name": "坏人鸭子", "count": 11 }
+  ],
+  "roles": [
+    {
+      "key": "goose_white",
+      "name": "大白鹅",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "稳定、可控、把“正事”干完",
+        "typical_behaviors": ["埋头做任务", "会议不爱抢话但会给关键事实"],
+        "strengths": ["抗干扰强", "做事踏实", "团队“地基型”"],
+        "blind_spots": ["容易被带节奏", "对心理战不敏感"],
+        "real_life_projection": "团队里的推进器/执行者，不爱戏但能扛事"
+      }
+    },
+    {
+      "key": "goose_canada",
+      "name": "加拿大鹅",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "用规则逼真相浮出水面",
+        "typical_behaviors": ["敢走高风险路线换信息", "愿意当诱饵/压力测试"],
+        "strengths": ["胆大", "愿承担", "能快速把局面拉回正轨"],
+        "blind_spots": ["容易高估抗风险能力", "可能被当“戏精”误伤"],
+        "real_life_projection": "敢把话挑明、敢承担，但要学会算收益再牺牲"
+      }
+    },
+    {
+      "key": "goose_detector",
+      "name": "探测员",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "掌握全局信息、减少不确定性",
+        "typical_behaviors": ["爱做信息面板", "记位置/时间线/路线"],
+        "strengths": ["推理稳", "复盘强", "适合当数据分析/PM"],
+        "blind_spots": ["容易信息过载", "有时忽略人性变量"],
+        "real_life_projection": "像情报中枢，擅长结构化和做结论"
+      }
+    },
+    {
+      "key": "goose_detective",
+      "name": "侦探",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "把“怀疑”变成“证据”",
+        "typical_behaviors": ["不爱口嗨", "用验证动作收敛嫌疑"],
+        "strengths": ["抗误导", "会议发言有分量"],
+        "blind_spots": ["只信自己证据", "忽略共识建设"],
+        "real_life_projection": "风控型理性派：先求证再站队"
+      }
+    },
+    {
+      "key": "goose_engineer",
+      "name": "工程师",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "效率、机动性、掌控地图资源",
+        "typical_behaviors": ["喜欢跑点", "卡视野", "用地形优势换信息"],
+        "strengths": ["执行快", "适应快", "能救火"],
+        "blind_spots": ["行动太跳容易被怀疑", "解释成本高"],
+        "real_life_projection": "操作型高手/增长型，会用工具与捷径赢"
+      }
+    },
+    {
+      "key": "goose_birdwatcher",
+      "name": "观鸟者",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "用第三视角看穿局面",
+        "typical_behaviors": ["不一定多说", "关键点给一锤定音"],
+        "strengths": ["洞察强", "擅长抓伪装与行为矛盾"],
+        "blind_spots": ["视野受限易漏外部信息", "可能过度自信"],
+        "real_life_projection": "擅长看本质识人，但要补外部事实采样"
+      }
+    },
+    {
+      "key": "goose_medium",
+      "name": "通灵者",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "用局势指标判断是否该激进",
+        "typical_behaviors": ["做节奏管理：该稳就稳该冲就冲"],
+        "strengths": ["节奏感强", "避免团队错误时间内耗"],
+        "blind_spots": ["只看到数量看不到结构", "易被情绪会议带偏"],
+        "real_life_projection": "运营/节奏官，擅长控进度与控风险"
+      }
+    },
+    {
+      "key": "goose_sheriff",
+      "name": "警长",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "用权力换秩序、快速结束混乱",
+        "typical_behaviors": ["敢拍板", "敢承担后果", "先定规则再出手"],
+        "strengths": ["领导力", "果断", "能破局"],
+        "blind_spots": ["压力大时急于正义", "误伤成本极高"],
+        "real_life_projection": "负责人/leader型，但要学会延迟决策"
+      }
+    },
+    {
+      "key": "goose_vigilante",
+      "name": "正义使者",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "把子弹留给最值得的那一枪",
+        "typical_behaviors": ["前期谨慎观察", "后期精准执行"],
+        "strengths": ["克制", "判断力强", "懂得等待窗口"],
+        "blind_spots": ["过度谨慎可能错过窗口"],
+        "real_life_projection": "关键时刻型：平时低调，关键时刻高价值"
+      }
+    },
+    {
+      "key": "goose_avenger",
+      "name": "复仇者",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "即时惩罚、以暴制暴",
+        "typical_behaviors": ["现场感强", "喜欢当场结案"],
+        "strengths": ["反应快", "强对抗", "能打断连杀"],
+        "blind_spots": ["容易上头被钓鱼", "可能被反向嫁祸"],
+        "real_life_projection": "很在意公平，看到不公会立刻出手"
+      }
+    },
+    {
+      "key": "goose_astral",
+      "name": "星界行者",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "用抽离感获得视野优势",
+        "typical_behaviors": ["先观察再行动", "擅长看路线与局部真相"],
+        "strengths": ["冷静", "视野强", "抗情绪"],
+        "blind_spots": ["太抽离可能错过沟通时机"],
+        "real_life_projection": "战略视角强，但要练把洞察讲给别人听"
+      }
+    },
+    {
+      "key": "goose_tracker",
+      "name": "跟踪者",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "锁定目标、建立可验证链路",
+        "typical_behaviors": ["不急着发言", "先跟到对方没法狡辩"],
+        "strengths": ["证据链强", "拆谎能力强"],
+        "blind_spots": ["注意力押单一目标", "被带偏就亏"],
+        "real_life_projection": "适合尽调/审计/研究，擅长追根究底"
+      }
+    },
+    {
+      "key": "goose_mortician",
+      "name": "殡仪员",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "把死者转化为关键情报",
+        "typical_behaviors": ["喜欢死因学", "以结果反推作案方式"],
+        "strengths": ["复盘强", "抓模式强"],
+        "blind_spots": ["太依赖尸体信息", "忽略活人行为学"],
+        "real_life_projection": "擅长从结果倒推原因（咨询/分析型）"
+      }
+    },
+    {
+      "key": "goose_forensic",
+      "name": "法医",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "让信息贡献者有更大话语权",
+        "typical_behaviors": ["积极找尸", "控会议节奏", "把票用在关键轮"],
+        "strengths": ["会议影响力强", "擅长推动共识"],
+        "blind_spots": ["容易被针对/被刺客盯上", "需要控制曝光"],
+        "real_life_projection": "组织者/号召者，懂得用流程推动结果"
+      }
+    },
+    {
+      "key": "goose_soldier",
+      "name": "士兵",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "先建设再反击",
+        "typical_behaviors": ["前期闷声做事", "后期突然变强翻盘"],
+        "strengths": ["耐心", "长期主义", "后期价值高"],
+        "blind_spots": ["前期存在感低", "易被当边缘人"],
+        "real_life_projection": "越到后面越强的成长型人格"
+      }
+    },
+    {
+      "key": "goose_mimic",
+      "name": "模仿者",
+      "camp": "goose",
+      "persona": {
+        "core_motivation": "在高风险误解中坚持立场",
+        "typical_behaviors": ["更在意自证", "会主动用行动证明自己"],
+        "strengths": ["抗标签能力强", "会换位思考别人为何不信"],
+        "blind_spots": ["解释疲劳", "容易被质疑压垮", "需要策略性沟通"],
+        "real_life_projection": "可能经历过被误解，因此更敏感也更成熟"
+      }
+    },
+
+    {
+      "key": "neutral_dodo",
+      "name": "呆呆鸟",
+      "camp": "neutral",
+      "persona": {
+        "core_motivation": "反向胜利：让大家相信投我才对",
+        "typical_behaviors": ["装傻", "引导误投", "用戏剧性吸引注意"],
+        "strengths": ["社交表演力强", "懂人心"],
+        "blind_spots": ["容易玩脱被无视", "可能把关系玩坏"],
+        "real_life_projection": "擅长氛围与人际策略，但要控制操控欲"
+      }
+    },
+    {
+      "key": "neutral_pelican",
+      "name": "鹈鹕",
+      "camp": "neutral",
+      "persona": {
+        "core_motivation": "控场与威慑",
+        "typical_behaviors": ["把人当资源管理", "先吞关键人后拖时间"],
+        "strengths": ["强掌控", "强耐心", "懂博弈"],
+        "blind_spots": ["容易被群体针对", "暴露后生存压力大"],
+        "real_life_projection": "控盘型，擅长谈判与资源调度"
+      }
+    },
+    {
+      "key": "neutral_cuckoo",
+      "name": "布谷鸟",
+      "camp": "neutral",
+      "persona": {
+        "core_motivation": "布局、埋伏、长期收益",
+        "typical_behaviors": ["前期铺设", "后期收网", "偏隐性增长"],
+        "strengths": ["规划型", "耐心", "会做系统"],
+        "blind_spots": ["需要时间窗口", "被打乱节奏会难受"],
+        "real_life_projection": "产品/策略建设者，喜欢搭框架再爆发"
+      }
+    },
+    {
+      "key": "neutral_vulture",
+      "name": "秃鹫",
+      "camp": "neutral",
+      "persona": {
+        "core_motivation": "机会主义的效率最大化",
+        "typical_behaviors": ["追尸体", "蹭资源", "低冲突拿收益"],
+        "strengths": ["嗅觉灵", "执行快", "懂顺势而为"],
+        "blind_spots": ["阵营忠诚感弱易被误解", "长期信誉要补"],
+        "real_life_projection": "很会抓风口，但要补长期信誉"
+      }
+    },
+    {
+      "key": "neutral_pigeon",
+      "name": "鸽子",
+      "camp": "neutral",
+      "persona": {
+        "core_motivation": "扩散影响力，让所有人被你触达",
+        "typical_behaviors": ["广撒网", "社交穿梭", "尽量接触更多人"],
+        "strengths": ["外向", "连接能力强", "能快速建网络"],
+        "blind_spots": ["目标大易暴露", "易被当到处跑的可疑者"],
+        "real_life_projection": "适合BD/社群/传播，但要学会节奏与边界"
+      }
+    },
+    {
+      "key": "neutral_falcon",
+      "name": "猎鹰",
+      "camp": "neutral",
+      "persona": {
+        "core_motivation": "单体强者路线：靠能力赢而非靠阵营",
+        "typical_behaviors": ["果断击杀", "快速缩局", "偏独狼"],
+        "strengths": ["行动派", "目标导向", "敢赢"],
+        "blind_spots": ["协作弱", "容易树敌", "容错低"],
+        "real_life_projection": "冲刺型选手，结果导向但要练团队协同"
+      }
+    },
+
+    {
+      "key": "duck_basic",
+      "name": "鸭子",
+      "camp": "duck",
+      "persona": {
+        "core_motivation": "用混乱掩护目标达成",
+        "typical_behaviors": ["制造信息噪音", "切灯/关门/打散队形"],
+        "strengths": ["灵活", "执行强", "懂节奏"],
+        "blind_spots": ["缺叙事能力易被时间线抓住"],
+        "real_life_projection": "很会推进结果，但现实中要避免走捷径伤信任"
+      }
+    },
+    {
+      "key": "duck_shapeshifter",
+      "name": "变形者",
+      "camp": "duck",
+      "persona": {
+        "core_motivation": "身份操控：把锅甩给最合适的人",
+        "typical_behaviors": ["制造错位证据", "打穿信任链"],
+        "strengths": ["心理战强", "擅长社会工程"],
+        "blind_spots": ["操作过度会留下破绽", "容易玩上瘾"],
+        "real_life_projection": "懂人心与包装，但要守住道德边界"
+      }
+    },
+    {
+      "key": "duck_assassin",
+      "name": "刺客",
+      "camp": "duck",
+      "persona": {
+        "core_motivation": "高风险高回报的精准打击",
+        "typical_behaviors": ["会议观察微表情/逻辑漏洞", "抓关键角色一枪封喉"],
+        "strengths": ["洞察极强", "敢赌", "会读人"],
+        "blind_spots": ["冲动会死", "需要极强自控与信息把握"],
+        "real_life_projection": "很会抓关键，但要学会延迟冲动"
+      }
+    },
+    {
+      "key": "duck_invisible",
+      "name": "隐形鸭",
+      "camp": "duck",
+      "persona": {
+        "core_motivation": "用不可见性换取行动窗口",
+        "typical_behaviors": ["绕后卡盲区", "突然出现突然消失"],
+        "strengths": ["执行隐蔽", "擅长偷袭"],
+        "blind_spots": ["信息缺失易误判", "容易被诱导"],
+        "real_life_projection": "喜欢幕后推进，但要补全局信息避免误伤"
+      }
+    },
+    {
+      "key": "duck_bomber",
+      "name": "爆炸王",
+      "camp": "duck",
+      "persona": {
+        "core_motivation": "制造不可控恐慌与连锁反应",
+        "typical_behaviors": ["在人群中投放/传递", "逼迫对方失误"],
+        "strengths": ["强扰动", "强节奏破坏"],
+        "blind_spots": ["变量多易反噬", "需要强局势判断"],
+        "real_life_projection": "擅长搅动局面，但现实要避免情绪炸弹"
+      }
+    },
+    {
+      "key": "duck_witch",
+      "name": "巫医",
+      "camp": "duck",
+      "persona": {
+        "core_motivation": "用特殊规则绕开常规防线",
+        "typical_behaviors": ["利用视野优势定点清除"],
+        "strengths": ["耐心", "布局", "抓单能力强"],
+        "blind_spots": ["视野受限+站位要求高", "失误就暴露"],
+        "real_life_projection": "狙击型专家，擅长在自己规则里赢"
+      }
+    },
+    {
+      "key": "duck_professional",
+      "name": "专业杀手",
+      "camp": "duck",
+      "persona": {
+        "core_motivation": "杀人也要信息控制",
+        "typical_behaviors": ["选地点", "控路径", "让尸体成为陷阱"],
+        "strengths": ["细节控", "强执行", "懂地图心理"],
+        "blind_spots": ["对方抱团/控路径会压缩空间"],
+        "real_life_projection": "讲究后果与链路，适合流程与风控反向利用"
+      }
+    },
+    {
+      "key": "duck_eater",
+      "name": "食鸟鸭",
+      "camp": "duck",
+      "persona": {
+        "core_motivation": "清理痕迹，减少证据",
+        "typical_behaviors": ["杀完吃干抹净", "把会议引到别处"],
+        "strengths": ["善后强", "抗追责"],
+        "blind_spots": ["沉迷清干净反而暴露路线"],
+        "real_life_projection": "危机公关/收拾残局型"
+      }
+    },
+    {
+      "key": "duck_spy",
+      "name": "间谍",
+      "camp": "duck",
+      "persona": {
+        "core_motivation": "用微小成本换取高价值情报",
+        "typical_behaviors": ["投票做标记", "慢慢建立情报网"],
+        "strengths": ["耐心", "隐蔽", "会下暗棋"],
+        "blind_spots": ["太慢会失去节奏", "投票行为可能被反推"],
+        "real_life_projection": "情报型策略家，擅长长期博弈"
+      }
+    },
+    {
+      "key": "duck_grabber",
+      "name": "掠夺者",
+      "camp": "duck",
+      "persona": {
+        "core_motivation": "掌控现场，把对方推理基础拆掉",
+        "typical_behaviors": ["运尸毁证", "加速连杀节奏"],
+        "strengths": ["节奏推进极强", "控地图强"],
+        "blind_spots": ["动作多=破绽多", "需要强路线规划"],
+        "real_life_projection": "擅长把局面推向有利，但要防操作过度"
+      }
+    },
+    {
+      "key": "duck_sniper",
+      "name": "狙击手",
+      "camp": "duck",
+      "persona": {
+        "core_motivation": "远距离精准击杀",
+        "typical_behaviors": ["找安全点架枪", "等待最佳窗口"],
+        "strengths": ["克制", "耐心", "精准"],
+        "blind_spots": ["被逼近很尴尬", "强依赖地图与时间窗"],
+        "real_life_projection": "高自控：把子弹留到最值钱时刻"
+      }
+    }
+  ]
+}
